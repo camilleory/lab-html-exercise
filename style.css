@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+  margin: 0 0 30px 0;
+  padding:0;
+
+  }
+
+.top{
+    padding: 0 25 px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+nav{
+    width: 600 px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.black-heart{
+    width: 20px;
+    margin-right: 1em;
+}
+.search{
+    padding: 25px 25px 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+.logo{
+    height: 30px;
+}
+.glass{
+    height: 20px;
+    align-self: center;
+    justify-content: space-around;
+    padding-left: 5px;
+}
+input{
+    width: 800px;
+    align-items: center;
+    outline: none;
+    border: none;
+    padding: 12px 20px;
+    margin: 0 5px;
+    background-color: transparent;
+}
+.bar{
+    background-color: rgba(0,0,0,.05);
+    display: flex;
+}
+form {
+    border: none;
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    margin-bottom: 0;
+}
+button{
+    border: none;
+    background-color: #fb3e44;
+    color: white;
+    width: 70px;
+}
+.search a{
+    color: black;
+    text-decoration: none;
+}
+.join-button{
+    border: black solid 1px;
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+}
+#start{
+    background-color: rgba(232,217,217,.3);
+    height: 600px;
+    margin: 10px 0 0 0;
+    border-top: lightgray solid 1px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+h1{
+    font-size: 60px;
+    font-style: bold;
+    padding-top: 80px;
+    text-align: center;
+}
+#start article{
+    text-align: center; 
+    padding: 0;
+    justify-content: center;
+    margin: auto;
+    width: 400px;
+}
+#start a{
+    display: inline-flex;
+    text-decoration: none;
+    font-style: bold;
+}
+.links{
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 30px;
+}
+.plans{
+    background-color: #fb3e44;
+    font-size: bold;
+    color: white;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+    padding: 10px 30px; 
+    margin: 10px;
+
+}
+.join{
+    background-color: white;
+    font-size: bold;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    white-space: nowrap;
+    width: 80px;
+    height: 30px;
+}   
+.hexagon{
+    width: 150px;
+    padding: 50px;
+    margin: auto;
+}
+#open-source{
+    padding: 30px 0 50px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+h2{
+    font-size: 35px;
+    background-color: rgba(255,204,53,.4);
+    transform: skew(9deg,0deg);
+    font-style: italic;
+    width: 80%;
+    margin: auto;
+    padding: 0 5px;
+}
+.tool{
+    width: 650px;
+    margin: auto;
+    padding-top: 50px;
+}
+#organisation{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 10px;
+    padding: 10px 40px;
+}
+#organisation img{
+    width: 40px;
+}
+h3{
+    font-weight: bold;
+    color: #fb3e44;
+}
+#organisation p{
+    width: 250px;
+}
+.org{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px 40px;
+    box-shadow:;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 200px;
+    margin: auto;
+    box-shadow:8px 8px 0 rgba(128,83,35,.2);
+
+}
